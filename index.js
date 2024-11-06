@@ -16,7 +16,7 @@ const express = require("express")
 const app = express()
 const PORT = process.env.PORT || 7070
 app.get("/test", (req, res) => {
-  res.json({ err: "", msg: "TEST!" })
+  res.json({ err: "", msg: "This is a Test 100" })
 })
 
 app.listen(PORT, () => {
